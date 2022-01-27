@@ -211,6 +211,10 @@ section.main {
     text-align: center;
 }
 
+.listacontato {
+    display: flex;
+}
+
 video {
     margin-top: 25px;
 }
