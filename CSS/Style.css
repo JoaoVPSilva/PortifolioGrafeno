@@ -14,7 +14,7 @@
 }
 
 header {
-	opacity:100;
+    opacity: 100;
     background-color: white;
     width: 100%;
     padding: 20px 0;
@@ -117,7 +117,7 @@ section.main {
     margin-left: 0px;
     display: flex;
     flex-wrap: wrap;
-	justify-content: center;
+    justify-content: center;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -144,7 +144,7 @@ section.main {
 }
 
 .diferencial-single p {
-	text-decoration: none;
+    text-decoration: none;
     color: grey;
     font-size: 14px;
     line-height: 30px;
@@ -193,27 +193,32 @@ section.main {
     padding: 50px 50px;
 }
 
-.fotos{
-	margin: 5vw 10vw 5vw 10vw;
+.quem_somos p {
+    Color: #490a5c;
+    text-size-adjust: right;
 }
 
-.contact{
-	
-	border-radius: 00px;
+.fotos {
+    margin: 5vw 10vw 5vw 10vw;
+}
+
+.contact {
+    border-radius: 00px;
     background-color: white;
     padding: 3vw 3vw;
-	color: #490a5c;	
-	line-height:1.5;
-	text-align: center;
+    color: #490a5c;
+    line-height: 1.5;
+    text-align: center;
 }
 
-video{
-	margin-top: 25px;
-}
-.logohabi{
-	margin-top: 25px;
+video {
+    margin-top: 25px;
 }
 
-#cliqueNaImagem{
-	font-size: 12px;
+.logohabi {
+    margin-top: 25px;
+}
+
+#cliqueNaImagem {
+    font-size: 12px;
 }
