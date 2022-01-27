@@ -3,7 +3,7 @@
 	padding:0;
 	box-sizing: border-box;
 	font-family: 'Poppins', sans-serif;
-	transition: 0,4s;
+	transition: 0.4s;
 }
 
 .center{
@@ -21,11 +21,10 @@ header{
 }
 
 .logo{
-	color: #16507b;
-	top: 25px;
-	left: 100px;
-	position: absolute;
-	
+    color: #16507b;
+    left: 150px;
+    top: 27px;
+    position:absolute;
 }
 
 .logo h2{
@@ -67,7 +66,7 @@ header{
 SECTION MAIN (paralax na imagem de background).
 */
 section.main{
-	background-image: url("../Imagens/fundo.jpg");
+	background-image: url("../Imagens/teste_fundo4");
 	padding: 70px 0;
 	background-position: center;
 	background-size: cover;
@@ -81,12 +80,12 @@ section.main{
 }
 
 .main__cta h2{
-	color:#9468EF;
+	color:white;
 	font-size: 40px;
 }
 
 .main__cta p{
-	color: gray;
+	color: white;
 	font-size: 19px;
 	margin:10px 0;
 }
@@ -147,33 +146,35 @@ section.main{
 		margin-bottom: 20px;	
 	} 
 }
-/*
-Teste JS.
-*/
-.TesteJS{
+
+.quem_somos{
+	margin-left: 0px ;
+}
+.quem_somos h2{
 	text-align: center;
-	margin: 20px;	
+	color:#124265;
+	font-size: 30px;
 }
 
-.TesteJS button{
-	background-color: #007bff;
-	display:inline-block;
-	padding: 8px 30px;
-	color:white;
-	border-radius:6px;
-	font-size: 16px; 
-	border: 0;
-	cursor: pointer;
+.quem_somos ul li{
+	display: inline-block;
 }
-.TesteJS button:hover{
-	background-color: #124265;
-	color: white;
+
+.desctexto{
+	line-height: 2;
+	text-align: center;
+	justify-content: center;
+	opacity: 100;
+}
+
+.sumir{
 	transition: 0.5s;
+	position: absolute;
+	opacity: 0;
 }
 
-.TesteJS p{
-	margin: 20px;
-	font-weight: normal;
-	font-size: 22px;
-	font-family: 'Poppins', sans-serif;
+.container{
+	display:flex;
+	/* justify-content: space-around; */
 }
+
