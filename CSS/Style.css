@@ -14,6 +14,7 @@
 }
 
 header {
+	opacity:100;
     background-color: white;
     width: 100%;
     padding: 20px 0;
@@ -116,6 +117,7 @@ section.main {
     margin-left: 0px;
     display: flex;
     flex-wrap: wrap;
+	justify-content: center;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -126,9 +128,8 @@ section.main {
     border-radius: 10px;
     margin: 50px;
     background-color: white;
-    width: 23%;
-    margin-right: 2%;
-    padding: 50px 20px;
+    width: 30%;
+    padding: 30px 20px;
 }
 
 .diferencial-single i {
@@ -143,6 +144,7 @@ section.main {
 }
 
 .diferencial-single p {
+	text-decoration: none;
     color: grey;
     font-size: 14px;
     line-height: 30px;
@@ -182,17 +184,36 @@ section.main {
 
 .container {
     display: flex;
-    /* justify-content: space-around; */
+    justify-content: center;
 }
 
 .quem_somos {
     border-radius: 00px;
     background-color: white;
-    padding: 100px 100px;
+    padding: 50px 50px;
 }
 
-.contact {
-    border-radius: 00px;
+.fotos{
+	margin: 5vw 10vw 5vw 10vw;
+}
+
+.contact{
+	
+	border-radius: 00px;
     background-color: white;
-    padding: 100px 100px;
+    padding: 3vw 3vw;
+	color: #490a5c;	
+	line-height:1.5;
+	text-align: center;
+}
+
+video{
+	margin-top: 25px;
+}
+.logohabi{
+	margin-top: 25px;
+}
+
+#cliqueNaImagem{
+	font-size: 12px;
 }
