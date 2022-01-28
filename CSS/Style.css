@@ -223,10 +223,12 @@ section.main {
 .joao_contato {
     text-align: center;
     margin-right: 100px;
+    margin-left: auto;
 }
 
 .gab_contato {
     text-align: center;
+    margin-right: auto;
 }
 
 
