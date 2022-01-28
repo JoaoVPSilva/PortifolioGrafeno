@@ -171,7 +171,7 @@ section.main {
 }
 
 .quem_somos p {
-    Color: #490a5c;
+    Color: #ffffff;
     text-size-adjust: right;
 }
 
@@ -180,10 +180,16 @@ section.main {
 }
 
 .desctexto {
+    background-color: #220468;
     line-height: 2;
     text-align: center;
     justify-content: center;
     opacity: 100;
+    width: 1000px;
+    padding: 2px;
+    margin: auto;
+    box-shadow: 10px 10px 15px rgb(7, 0, 0, 0.6);
+    border-radius: 50px;
 }
 
 .sumir {
