@@ -159,12 +159,20 @@ section.main {
 
 .quem_somos {
     margin-left: 0px;
+    border-radius: 00px;
+    background-color: white;
+    padding: 50px 50px;
 }
 
 .quem_somos h2 {
     text-align: center;
     color: #490a5c;
     font-size: 30px;
+}
+
+.quem_somos p {
+    Color: #490a5c;
+    text-size-adjust: right;
 }
 
 .quem_somos ul li {
@@ -187,20 +195,12 @@ section.main {
     justify-content: center;
 }
 
-.quem_somos {
-    border-radius: 00px;
-    background-color: white;
-    padding: 50px 50px;
-}
-
-.quem_somos p {
-    Color: #490a5c;
-    text-size-adjust: right;
-}
-
 .fotos {
     margin: 5vw 10vw 5vw 10vw;
 }
+
+
+/*Contato*/
 
 .contact {
     border-radius: 00px;
@@ -208,11 +208,34 @@ section.main {
     padding: 3vw 3vw;
     color: #490a5c;
     line-height: 1.5;
+    /*text-align: center;*/
+}
+
+.contact h2 {
     text-align: center;
 }
 
-.listacontato {
+.infos_contato {
     display: flex;
+    text-align: center;
+}
+
+.joao_contato {
+    text-align: center;
+    margin-right: 100px;
+}
+
+.gab_contato {
+    text-align: center;
+}
+
+
+/*.listacontato {
+    display: flex;
+}*/
+
+.contact a {
+    color: #490a5c;
 }
 
 video {
