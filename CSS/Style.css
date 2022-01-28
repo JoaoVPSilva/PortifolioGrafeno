@@ -185,7 +185,7 @@ section.main {
     text-align: center;
     justify-content: center;
     opacity: 100;
-    width: 1000px;
+    width: auto;
     padding: 2px;
     margin: auto;
     box-shadow: 10px 10px 15px rgb(7, 0, 0, 0.6);
