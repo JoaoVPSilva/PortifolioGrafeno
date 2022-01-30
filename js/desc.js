@@ -2,6 +2,7 @@ fotojao = document.getElementById("joao");
 fotogab = document.getElementById("gab");
 textojao = document.getElementById("textojao");
 textogab = document.getElementById("textogab");
+
 textojao.classList.add("sumir");
 textogab.classList.add("sumir");
 

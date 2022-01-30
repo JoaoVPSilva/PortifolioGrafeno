@@ -18,7 +18,7 @@ header {
     background-color: white;
     width: 100%;
     padding: 20px 0;
-    border-bottom: 1px solid rgb(200, 200, 200);
+    /*border-bottom: 1px solid rgb(200, 200, 200);*/
     position: fixed;
 }
 
