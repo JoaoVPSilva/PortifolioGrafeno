@@ -189,7 +189,7 @@ section.main {
 }
 
 
-/*--------------------Descrição quem somos-----------------------*/
+/*-----------------------Descrição quem somos-----------------------*/
 
 .desctexto {
     background-color: #750d94;
@@ -209,7 +209,7 @@ section.main {
     text-align: left;
     padding: 10px;
     font-family: 'Poppins', sans-serif;
-    color: white;
+    color: rgb(255, 255, 255);
     text-shadow: 0 1px 0 rgb(32, 32, 32), 0 2px 0 rgb(32, 32, 32), 0 3px 0 rgb(32, 32, 32), 0 4px 0 rgb(32, 32, 32), 0 5px 0 rgb(0, 0, 0), 0 6px 1px rgba(0, 0, 0, .1), 0 0 5px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .3), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .2), 0 20px 20px rgba(0, 0, 0, .15);
 }
 
@@ -221,7 +221,7 @@ section.main {
 }
 
 
-/*-------------------------------------------------------------*/
+/*----------------------------------------------*/
 
 .sumir {
     display: none;
@@ -237,7 +237,7 @@ section.main {
 }
 
 
-/*Contato*/
+/*-----------------------Contato-----------------------*/
 
 .contact {
     border-radius: 00px;
