@@ -18,7 +18,7 @@ header {
     background-color: white;
     width: 100%;
     padding: 20px 0;
-    /*border-bottom: 1px solid rgb(200, 200, 200);*/
+    border-bottom: 1px solid rgb(200, 200, 200);
     position: fixed;
 }
 
@@ -133,11 +133,6 @@ section.main {
     padding: 30px 20px;
 }
 
-.diferencial-dark {
-    background-color: rgb(30,30,30);
-}
-
-
 .diferencial-single i {
     color: #490a5c;
     margin: 23px;
@@ -193,17 +188,35 @@ section.main {
     display: inline-block;
 }
 
+
+/*--------------------Descrição quem somos-----------------------*/
+
 .desctexto {
-    background-color: #220468;
+    background-color: #750d94;
     line-height: 2;
-    text-align: center;
     justify-content: center;
     opacity: 100;
     width: auto;
     padding: 2px;
     margin: auto;
-    box-shadow: 10px 10px 15px rgb(7, 0, 0, 0.6);
-    border-radius: 50px;
+    border-radius: 10px;
+    box-shadow: 30px 30px #c44fe7;
+}
+
+.desctexto h2 {
+    text-align: left;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-shadow: 0 1px 0 rgb(32, 32, 32), 0 2px 0 rgb(32, 32, 32), 0 3px 0 rgb(32, 32, 32), 0 4px 0 rgb(32, 32, 32), 0 5px 0 rgb(0, 0, 0), 0 6px 1px rgba(0, 0, 0, .1), 0 0 5px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .3), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .2), 0 20px 20px rgba(0, 0, 0, .15);
+}
+
+.desctexto p {
+    text-align: left;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-shadow: 0 1px 0 rgb(32, 32, 32), 0 2px 0 rgb(32, 32, 32), 0 3px 0 rgb(32, 32, 32), 0 4px 0 rgb(32, 32, 32), 0 5px 0 rgb(0, 0, 0), 0 6px 1px rgba(0, 0, 0, .1), 0 0 5px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .3), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .2), 0 20px 20px rgba(0, 0, 0, .15);
 }
 
 .sumir {
@@ -256,9 +269,9 @@ section.main {
     display: flex;
 }*/
 
-/*.contact a {
+.contact a {
     color: #490a5c;
-}*/
+}
 
 video {
     margin-top: 25px;
