@@ -24,7 +24,7 @@ header {
     background-color: white;
     width: 100%;
     padding: 20px 0;
-    border-bottom: 1px solid rgb(200, 200, 200);
+    border-bottom: 1px solid #c44fe7;
     position: fixed;
 }
 
@@ -254,6 +254,7 @@ section.main {
     /*text-align: center;*/
 }
 
+
 .contact h2 {
     text-align: center;
 }
@@ -279,9 +280,9 @@ section.main {
     display: flex;
 }*/
 
-.contact a {
+/* .contact a {
     color: #490a5c;
-}
+} */
 
 video {
     margin-top: 25px;
@@ -293,4 +294,8 @@ video {
 
 #cliqueNaImagem {
     font-size: 12px;
+}
+
+.email{
+    color: #0000EE;
 }
