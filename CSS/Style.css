@@ -36,14 +36,13 @@ header {
     display: flex;
     font-weight: normal;
     font-size: 22px;
-    margin-right: 61vw;
-    margin-left: 50px;
+    margin-left: 20px;
 }
 
 .menu {
     display: flex;
     width: 100%;
-    text-align: right;
+    justify-content: space-between;
 }
 
 .menu a {
@@ -135,8 +134,8 @@ section.main {
     border-radius: 10px;
     margin: 50px;
     background-color: white;
-    width: 30%;
-    padding: 30px 20px;
+    padding: 20px 20px;
+    width: 40%
 }
 
 .diferencial-single i {
@@ -165,13 +164,6 @@ section.main {
     text-align: none;
 }
 
-@media screen and (max-width: 768px) {
-    .diferencial-single {
-        width: 100%;
-        margin-bottom: 20px;
-    }
-}
-
 .quem_somos {
     margin-left: 0px;
     border-radius: 00px;
@@ -195,7 +187,7 @@ section.main {
 }
 
 
-/*-----------------------Descrição quem somos-----------------------*/
+/*-----------------------DescriÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â§ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£o quem somos-----------------------*/
 
 .desctexto {
     background-color: #750d94;
@@ -225,6 +217,9 @@ section.main {
     font-family: 'Poppins', sans-serif;
     color: white;
 }
+.fotos{
+    margin:3vh;
+}
 
 
 /*----------------------------------------------*/
@@ -235,11 +230,8 @@ section.main {
 
 .container {
     display: flex;
-    justify-content: center;
-}
-
-.fotos {
-    margin: 5vw 10vw 5vw 10vw;
+    justify-content: space-between;
+    text-align:center;
 }
 
 
