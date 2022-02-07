@@ -3,13 +3,14 @@
 <!--Criação total @joaoV e @gabrielN-->
 
 <head>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="CSS/Style.css" />
-    <link rel="stylesheet" href="CSS/StyleDarkTheme.css" />
+    <link rel="stylesheet" href="CSS/responsividade.css" />
     <link rel="icon" href="Imagens/logo_grafeno.png">
 
 </head>
@@ -59,8 +60,8 @@
             <div class="quem_somos" id="quem__somos">
                 <h2 id="h2quemsomos">Quem Somos?</h2>
                 <div class="container">
-                    <img src="Imagens/icon-gabriel.png" width="25%" height="25%" id="gab" class="fotos">
-                    <img src="Imagens/icon-gabriel.png" width="25%" height="25%" id="joao" class="fotos">
+                    <img src="Imagens/icon-gabriel.png" width="35%" height="35%" id="gab" class="fotos">
+                    <img src="Imagens/icon-gabriel.png" width="35%" height="35%" id="joao" class="fotos">
 
                     <!-- <style>
 						div.box {
@@ -73,29 +74,30 @@
                 </div>
                 <!--container -->
 
+                <div class="descs">
+                    <div class="desctexto" id="textojao">
 
-                <div class="desctexto" id="textojao">
+                        <h2>João Vitor P. Silva</h2>
+                        <p>Idade: 19 anos</p>
+                        <p>Faculdade: Ciências da computação (3o Semestre)</p>
+                        <p>Áreas de especialidade: Edição de Vídeo (cortes e direcionamento) e Desenvolvimento web</p>
+                        <p>Edição de vídeos: Adobe Premiere/Photoshop</p>
+                        <p>Anos de atividade: Edição 5 anos; Desenvolvimento 1 ano; </p>
+                        <p>Linguas: Português Nativo, Inglês Intermediário</p>
+                        <p>&nbsp;</p>
+                    </div>
 
-                    <h2>João Vitor P. Silva</h2>
-                    <p>Idade: 19 anos</p>
-                    <p>Faculdade: Ciências da computação (3o Semestre)</p>
-                    <p>Áreas de especialidade: Edição de Vídeo (cortes e direcionamento) e Desenvolvimento web</p>
-                    <p>Edição de vídeos: Adobe Premiere/Photoshop</p>
-                    <p>Anos de atividade: Edição 5 anos; Desenvolvimento 1 ano; </p>
-                    <p>Linguas: Português Nativo, Inglês Intermediário</p>
-                    <p>&nbsp;</p>
-                </div>
+                    <div class="desctexto" id="textogab">
 
-                <div class="desctexto" id="textogab">
-
-                    <h2>Gabriel Natucci R. P. Toledo</h2>
-                    <p>Idade: 19 anos</p>
-                    <p>Faculdade: Análise de Sistemas Embarcados (3o Semestre)</p>
-                    <p>Áreas de especialidade: Edição de Vídeo (Efeitos visuais e Animações) e Desenvolvimento web</p>
-                    <p>Edição de vídeos: Adobe After Effects/Photoshop</p>
-                    <p>Anos de atividade: Edição 6 anos; Desenvolvimento 1 ano; </p>
-                    <p>Linguas: Português Nativo, Inglês Intermediário</p>
-                    <p>&nbsp;</p>
+                        <h2>Gabriel Natucci R. P. Toledo</h2>
+                        <p>Idade: 19 anos</p>
+                        <p>Faculdade: Análise de Sistemas Embarcados (3o Semestre)</p>
+                        <p>Áreas de especialidade: Edição de Vídeo (Efeitos visuais e Animações) e Desenvolvimento web</p>
+                        <p>Edição de vídeos: Adobe After Effects/Photoshop</p>
+                        <p>Anos de atividade: Edição 6 anos; Desenvolvimento 1 ano; </p>
+                        <p>Linguas: Português Nativo, Inglês Intermediário</p>
+                        <p>&nbsp;</p>
+                    </div>
                 </div>
                 <a name="projetos">
             </div>
@@ -105,10 +107,10 @@
 
 
         <section class="section_diferenciais">
-            <div class="diferenciais">
-                <div class="diferencial-single" id="dif_single0">
+            <div class="diferenciais" id="">
+                <div class="diferencial-single">
                     <i class="fas fa-images"></i>
-                    <h2 id="titulodif0">Design gráfico</h2>
+                    <h2 class="titulodif">Design gráfico</h2>
                     <p>Editamos imagens e criamos logos, como a da imagem abaixo:</p>
                     <a href="https://drive.google.com/drive/folders/1XKj2BcJPJPhJh1F7znAyMTLn_AYD_OS9" target="_blank">
                         <img src="Imagens\logo_grafeno.png" height="160px" width="160px" class="logohabi"></img>
@@ -118,9 +120,9 @@
                     </a>
                 </div>
                 <!--diferencial-single-->
-                <div class="diferencial-single" id="dif_single1">
+                <div class="diferencial-single">
                     <i class="fas fa-video"></i>
-                    <h2 id="titulodif1">Edição de Vídeos</h2>
+                    <h2 class="titulodif">Edição de Vídeos</h2>
                     <p> Editamos vídeos, criamos intros, visando construir o melhor ambiente visual:</p>
                     <video id="video_prj" autoplay muted loop>
                 <source src="Videos\open_melhores_momentos_vf.mp4" type="video/mp4">
@@ -130,9 +132,9 @@
                     </a>
                 </div>
                 <!--diferencial-single-->
-                <div class="diferencial-single" id="dif_single2">
+                <div class="diferencial-single">
                     <i class="fas fa-globe-americas"></i>
-                    <h2 id="titulodif2">Desenvolvimento Web</h2>
+                    <h2 class="titulodif">Desenvolvimento Web</h2>
                     <p>Somos capazes de desenvolver sites, como este que foi desenvolvido por nós, utilizando as linguagens: HTML 5, CSS e JS </p>
                 </div>
                 <!--diferencial-single-->
@@ -154,36 +156,49 @@
 
                     <h2 id="titulocontato">Informações para contato: </h2>
                     <br>
-                    <div class="infos_contato">
-                        <div class="joao_contato" id="joaocontato">
-                            <h3>João: </h3>
+                    <div class="infos_contato" id="infos__contato">
+                        <div class="joao_contato">
+                            <h3>João:</h3>
                             <a href="mailto: joaovitorps2603@gmail.com" target="_blank">
-                                <p> E-mail: joaovitorps2603@gmail.com </p>
-
+                                <p class="email"> E-mail: joaovitorps2603@gmail.com </p>
                             </a>
-                            <p> Telefone: (35) 9 9934-3134 </p>
+                            <p> Telefone: (35) 9 9934-3134
+                            </p>
+                            <div class="icons_redes_joao">
+                                <i class="fab fa-instagram"></i>
+                                <i class="fab fa-linkedin-in"></i>
+                                <i class="fab fa-github"></i>
+                                <i class="fab fa-youtube"></i>
+                            </div>
+
+
                         </div>
                         <br>
 
-                        <div class="gab_contato" id="gabcontato">
+                        <div class="gab_contato">
                             <h3>Gabriel: </h3>
                             <a href="mailto: gabriel.natuccirusso@hotmail.com" target="_blank">
-                                <p> E-mail: gabriel.natuccirusso@hotmail.com </p>
+                                <p class="email"> E-mail: gabriel.natuccirusso@hotmail.com </p>
                             </a>
                             <p> Telefone: (11) 9 7081-7591 </p>
+                            <div class="icons_redes_gab">
+                                <i class="fab fa-instagram"></i>
+                                <i class="fab fa-linkedin-in"></i>
+                                <i class="fab fa-github"></i>
+                                <i class="fab fa-youtube"></i>
+                            </div>
                         </div>
                     </div>
 
                 </div>
                 <!-- contact -->
             </section>
-            contato -->
+            <!-- contato -->
 
             <section class="scripts">
                 <script src="https://kit.fontawesome.com/37c3367940.js" crossorigin="anonymous"></script>
                 <script src="js/desc.js"></script>
                 <script src="js/darktheme.js"></script>
-
             </section>
 
 </body>

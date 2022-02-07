@@ -1,0 +1,77 @@
+@viewport {
+    zoom: 1.0;
+    width: extended-to-zoom;
+}
+
+@-ms-viewport {
+    zoom: 1.0;
+    width: extended-to-zoom;
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        padding: 20px 0;
+    }
+    .logo {
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    .menu a {
+        color: #490a5c;
+        font-size: 11px;
+        margin-right: 10px;
+    }
+    .menu .btn-menu {
+        padding: 5px 10px;
+        border-radius: 3px;
+    }
+    .quem_somos {
+        margin-left: 0px;
+        border-radius: 00px;
+        background-color: white;
+        padding: 30px 5px;
+    }
+    .fotos {
+        height: 40%;
+        width: 40%;
+        margin: 2vh;
+    }
+    .descs {
+        padding: 0 50px
+    }
+    .desctexto {
+        box-shadow: 15px 15px #c44fe7;
+    }
+    .desctexto h2 {
+        font-size: 20px;
+    }
+    .desctexto p {
+        font-size: 13px;
+    }
+    .diferencial-single {
+        width: 900%;
+        padding: 10px;
+        margin: 20px;
+    }
+    .diferencial-single i {
+        color: #490a5c;
+        margin: 5px;
+    }
+    .diferenciais {
+        display: flex;
+    }
+    .infos_contato {
+        display: block;
+        text-align: center;
+    }
+    .joao_contato {
+        text-align: center;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .gab_contato {
+        text-align: center;
+        margin-right: 0;
+    }
+    .container {}
+}
