@@ -173,6 +173,11 @@ SECTION MAIN (paralax na imagem de background).
         font-size: 30px;
     }
     
+    .quem_somos h4 {
+        text-align: center;
+        color: #490a5c;
+    }
+    
     .quem_somos p {
         Color: #ffffff;
         text-size-adjust: right;
@@ -181,7 +186,7 @@ SECTION MAIN (paralax na imagem de background).
     .quem_somos ul li {
         display: inline-block;
     }
-    /*-----------------------DescriÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â§ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â£o quem somos-----------------------*/
+    /*-----------------------Descrição quem somos-----------------------*/
     
     .desctexto {
         background-color: #750d94;
