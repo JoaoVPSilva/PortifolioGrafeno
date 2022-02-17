@@ -25,7 +25,7 @@
         width: 100%;
         padding: 20px 0;
         border-bottom: 1px solid #c44fe7;
-        position: fixed;
+        /*position: fixed*/
     }
     /*#750d94;*/
     
@@ -282,4 +282,22 @@ SECTION MAIN (paralax na imagem de background).
     
     .email {
         color: #0000EE;
+    }
+    
+    [data-anime] {
+        opacity: 0;
+        transition: .3s;
+    }
+    
+    [data-anime="left"] {
+        transform: translate3d(-50px, 0, 0);
+    }
+    
+    [data-anime="right"] {
+        transform: translate3d(50px, 0, 0);
+    }
+    
+    [data-anime].animate {
+        opacity: 1;
+        transform: translate3d(0px, 0px, 0px);
     }
