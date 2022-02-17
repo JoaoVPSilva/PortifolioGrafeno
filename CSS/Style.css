@@ -14,7 +14,6 @@
     
     .center {
         max-height: 1100px;
-        margin: 50px 0 0 0;
         padding: 0 2%;
         flex-wrap: wrap;
     }
@@ -153,8 +152,8 @@ SECTION MAIN (paralax na imagem de background).
     }
     
     #video_prj {
-        width: auto;
-        height: 200px;
+        width: 95%;
+        height: auto;
         object-fit: cover;
         z-index: -100;
         text-align: none;
